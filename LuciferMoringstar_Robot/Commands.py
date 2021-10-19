@@ -25,7 +25,7 @@ async def start(bot, message):
         await db.add_user(chat_id)
         await bot.send_message(
             LOG_CHANNEL,
-            f"#NEWUSER: \n\nNew User [{message.from_user.first_name}](tg://user?id={message.from_user.id}) started @{BOT_USERNAME} !!",
+            f"#NEWUSER: \n\n💡New User [{message.from_user.first_name}](tg://user?id={message.from_user.id}) started @{BOT_USERNAME} !!",
         )
     usr_cmdall1 = message.text
     if usr_cmdall1.startswith("/start pr0fess0r_99"):
@@ -49,10 +49,10 @@ async def start(bot, message):
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("📢 Join Updates Channel 📢", url=invite_link.invite_link)
+                                InlineKeyboardButton("📣 Join Our Channel 📣", url=invite_link.invite_link)
                             ],
                             [
-                                InlineKeyboardButton("🔄 Try Again", callback_data=f"checksub#{file_id}")
+                                InlineKeyboardButton("🔁 Try Again", callback_data=f"checksub#{file_id}")
                             ]
                         ]
                     ),
@@ -84,7 +84,7 @@ async def start(bot, message):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('🖥️ Deploy Now 🖥️', url=f'{TUTORIAL}')
+                        InlineKeyboardButton('💡 Join Now 💡', url='https://t.me/FM_SERIES')
                     ],
                     [
                         InlineKeyboardButton('🔍 Search again 🔎', switch_inline_query_current_chat='')
@@ -125,7 +125,7 @@ async def start(bot, message):
                             ),
                         InlineKeyboardButton
                             (
-                                "🤖More Botz", url="https://t.me/MT_Botz"
+                                "➕ ᗩᗪᗪ ᗰE TO YOᑌᖇ GᖇOᑌᑭᑭ ➕ ", url="https://t.me/DonLee_V2_9_Robot?startgroup=true"
                             )
                     ],
                     [
@@ -187,7 +187,7 @@ async def broadcast_handler_open(_, m):
 @Client.on_message(filters.private & filters.command("stats"))
 async def sts(c, m):
     await m.reply_text(
-        text=f"**Total Users in Database 📂:** `{await db.total_users_count()}``",
+        text=f"**Total Users in Database 📂:** `{await db.total_users_count()}``🥴",
         parse_mode="Markdown",
         quote=True
     )
@@ -300,7 +300,7 @@ async def total(bot, message):
     msg = await message.reply("Processing...⏳", quote=True)
     try:
         total = await Media.count_documents()
-        await msg.edit(f'📁 Saved files: {total}')
+        await msg.edit(f'📁 Saved files: {total} 🥵')
     except Exception as e:
         logger.exception('Failed to check total files')
         await msg.edit(f'Error: {e}')
@@ -348,7 +348,7 @@ async def bot_info(bot, message):
         [
             InlineKeyboardButton
                 (
-                     'Video', url=f'{TUTORIAL}'
+                     '🚀 ᑕᒪIᑕK TO SᕼᗩᖇE 🚀', url='http://t.me/share/url?url=https://t.me/FM_Update'
                 )
         ]
     ]
