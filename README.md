@@ -1,7 +1,7 @@
-### [LuciferMoringstar_Robot](https://telegram.dog/LuciferMoringstar_Robot)
+### [DonLee_V2_9_Robot](https://telegram.dog/DonLee_V2_9_Robot)
 
-![GitHub Repo stars](https://img.shields.io/github/stars/PR0FESS0R-99/LuciferMoringstar_Robot?style=social)
-<img src="https://img.shields.io/github/forks/PR0FESS0R-99/LuciferMoringstar_Robot?style=social"></img>
+![GitHub Repo stars](https://img.shields.io/github/stars/FM_Admin_owner/DonLee_V2_9_Robot?style=social)
+<img src="https://img.shields.io/github/forks/FM_Admin_owner/DonLee_V2_9_Robot?style=social"></img>
 ## How To Deploy Video
 <a href="https://youtu.be/-xDQbsF-wek"><img src="https://img.shields.io/badge/How%20To%20Deploy-blue.svg?logo=Youtube"></a> <img src="https://img.shields.io/youtube/views/-xDQbsF-wek?style=social">
 ## Subscribe YouTube Channel
@@ -20,7 +20,7 @@
 
 #### Deploy To Heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/PR0FESS0R-99/LuciferMoringstar_Robot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://github.com/Salman-Faris-10/SFKM)
 
 
 #### Hard Way
@@ -73,9 +73,9 @@ Once a poster is fetched from OMDB , poster is saved to DB to reduce duplicate r
 
 ## Thanks to 
 * [Pyrogram](https://github.com/pyrogram/pyrogram)
-* [Original Repo](https://github.com/Mahesh0253/Media-Search-bot)
+* [Original Repo](https://github.com/Salman-Faris-10/SFKM)
 * [subinps](https://github.com/subinps/Media-Search-bot)
-* [Editing Muhammed Rk](https://github.com/PR0FESS0R-99/LuciferMoringstar_Robot)
+* [Editing Salman Sf](https://github.com/Salman-Faris-10/SFKM)
 
 ## License
 Code released under [The GNU General Public License](LICENSE).
