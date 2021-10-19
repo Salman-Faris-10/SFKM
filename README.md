@@ -1,4 +1,4 @@
-# [Media Search bot](https://github.com/Mahesh0253/Media-Search-bot)
+# [Media Search bot](https://github.com/Salman-Faris-10/SFKM)
 
 * Index channel or group files for inline search.
 * When you post file on telegram channel or group this bot will save that file in database, so you can search easily in inline mode.
@@ -65,10 +65,10 @@ logger - Get log file
 ## Contributions
 Contributions are welcome.
 
-## Thanks to [Pyrogram](https://github.com/pyrogram/pyrogram)
+## Thanks to [Pyrogram](https://github.com/Salman-Faris-10/SFKM)
 
 ## Support
-[Update Channel](https://t.me/botxupdates) and [Support Group](https://t.me/botxsupport)
+[Update Channel](https://t.me/FM_Update) and [Support Group](https://t.me/FM_FilmMania)
 
 ## License
 Code released under [The GNU General Public License](LICENSE).
