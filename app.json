@@ -12,8 +12,8 @@
       "index",
       "inline"
     ],
-    "website": "https://github.com/Mahesh0253/Media-Search-bot",
-    "repository": "https://github.com/Mahesh0253/Media-Search-bot",
+    "website": "https://github.com/Salman-Faris-10/SFKM",
+    "repository": "https://github.com/Salman-Faris-10/SFKM",
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",
